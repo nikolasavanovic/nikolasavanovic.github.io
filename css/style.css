@@ -144,7 +144,8 @@ ul, ol {
 }
 
 .bg-dark {
-    background-color: #1C1D21;
+    /* background-color: #1C1D21; */
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../img/fire.jpg);
 }
 
 
@@ -1510,6 +1511,10 @@ header {
     margin: 0;
 }
 
+.footer-copyright a {
+    color: #868F9B;
+}
+ 
 
 /*------------------------------------*\
 	Responsive
@@ -1790,8 +1795,12 @@ header {
 }
 
 @media only screen and (max-width: 767px) {
+    .galery {
+        padding: 10px;
+        text-align: center;
+    }
     .galeriy-img {
-        padding: 10px 0;
+        padding: 5px 0;
         width: 100%;
         height: initial;
     }
