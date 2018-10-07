@@ -246,6 +246,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     outline: none;
 }
 
+a.main-btn:hover, a.main-btn:focus {
+    color: #fff;
+}
+
 .white-btn {
     background: #FFF;
     color: #10161A !important;
